@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Blog - Blog</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Tech Blog</div>
+        <nav>
+            <div class="hamburger">☰</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="blog-section">
+            <h1>Our Blog</h1>
+            <input type="text" id="filterInput" placeholder="Filter posts by title...">
+            <div class="blog-posts">
+                <article class="post">
+                    <h2>AI in 2025</h2>
+                    <p>Exploring the advancements in artificial intelligence.</p>
+                    <img src="img1.jpg" alt="AI Technology" class="post-image">
+                </article>
+                <article class="post">
+                    <h2>Web Development Trends</h2>
+                    <p>The latest tools and frameworks for developers.</p>
+                    <img src="img2.jpg" alt="Web Development" class="post-image">
+                </article>
+                <article class="post">
+                    <h2>Cloud Computing</h2>
+                    <p>How cloud technology is shaping the future.</p>
+                    <img src="img3.jpg" alt="Cloud Computing" class="post-image">
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 All rights reserved.</p>
+    </footer>
+
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+    <script src="index.js"></script>
+</body>
+</html>
