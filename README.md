@@ -1,4 +1,5 @@
 # Final Project and Deployment
+Site is live at https://plp-webtechnologies.github.io/feb-2025-final-project-and-deployment-Briotang/
 
 ## Objectives
 Build a fully functional web application.
